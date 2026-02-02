@@ -1,0 +1,18 @@
+# SuperKart Sales Forecasting - Dependencies
+# For Hugging Face Spaces deployment
+
+# Core ML
+numpy==2.0.2
+pandas==2.2.2
+scikit-learn==1.6.1
+joblib==1.4.2
+
+# Web App
+streamlit==1.45.0
+
+# Visualization (for notebook)
+matplotlib==3.10.0
+seaborn==0.13.2
+
+# XGBoost (alternative model)
+xgboost==2.1.4

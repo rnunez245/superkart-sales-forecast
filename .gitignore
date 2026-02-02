@@ -1,0 +1,38 @@
+# Data files
+*.csv
+*.xlsx
+*.xls
+data/*
+!data/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+*.py[cod]
+__pycache__/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Secrets & credentials
+*.pem
+*.key
+*token*
+*secret*
+.huggingface/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+models/
